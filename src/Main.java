@@ -2,6 +2,9 @@ import javaheima.FaceToObject;
 import javaheima.MyStudyDemo;
 import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
 
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Date;
 import java.util.Scanner;
 
 import java.lang.reflect.Array;
@@ -14,24 +17,55 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String[] args) {
-        Cards cd=new Cards();
+        new Stage().start();
+        /*Thread actor=new Actor();
+        actor.setName("Mr.Thread");
+        actor.start();
+        Thread actressTread=new Thread(new Actor.Actress(),"Ms.Runnable");
+        actressTread.start();*/
+        //IsAndosw kl=new IsAndosw();
+        //kl.inputji();
+        //printHex.printHexByByteArray("C:\\Users\\Yin\\Desktop\\xiaodi\\images\\17.jpg");
+        //RafDemo li=new RafDemo();
+        //li.ratlike();
+        //FileDemo fi=new FileDemo();
+        //fi.filefv();
+    /*throws UnsupportedEncodingException {
+        InsertDemo lp=new InsertDemo();
+        lp.stugtu();*/
+             // MyStudyDemo nj=new MyStudyDemo();
+              //nj.StringToDouble();
+        // for(int i=0;i<100;i++){
+            //System.out.println(new Date());
+        //}
+        //try{
+           // Thread.sleep(1000);
+        //}catch (InterruptedException e) {
+           // e.printStackTrace();
+        //}
+       // Repeat lo=new Repeat();
+        //lo.whileDemo();
+        //lo.foreachDemo();
+       // lo.forinDemo();
+       // lo.forDemo();
+      //  Cards cd=new Cards();
 
-        cd.createCards();
+       // cd.createCards();
 
-        cd.shuffle();
+       // cd.shuffle();
 
-        player pl=new player();
+       // player pl=new player();
 
-        pl.GreatPlayer();
+       // pl.GreatPlayer();
 
-        cd.deal(pl.players[0], pl.players[1]);
+       // cd.deal(pl.players[0], pl.players[1]);
 
-        Fzhumol pg=new Fzhumol();
+        //Fzhumol pg=new Fzhumol();
 
-        pg.playingGame(pl.players[0], pl.players[1]);
-        pl.players[0].showckCards();
+       // pg.playingGame(pl.players[0], pl.players[1]);
+        //pl.players[0].showckCards();
 
-        pl.players[1].showckCards();
+        //pl.players[1].showckCards();
 
         //Vip ji=new Vip();
         //ji.testPut();
@@ -363,6 +397,7 @@ System.out.println("age"+age);
         System.out.println("我是test3，我运行成功了");
         return 1111;
     }
+
 
 }
 

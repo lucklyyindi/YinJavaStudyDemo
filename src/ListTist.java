@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ListTist {
+
     public List lopi;
     public ListTist(){
         this.lopi=new ArrayList();
